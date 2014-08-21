@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Achievement" representedClassName="Achievement" syncable="YES">
+        <attribute name="achievementId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="managerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="target" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="total" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Agent" representedClassName="Agent" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="agentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="agentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="businessType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cityId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="proviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registerCapital" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AgentUser" representedClassName="AgentUser" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="agentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="agentUserId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="agentUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entryDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="job" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneThree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneTwo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkThree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkTwo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Client" representedClassName="Client" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bedCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cityId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dayCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="finance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="income" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="provinceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registerCapital" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teSeKeShi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="turnover" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ClientRoom" representedClassName="ClientRoom" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="income" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roomId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roomName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zhuRenName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ClientRoomDevice" representedClassName="ClientRoomDevice" syncable="YES">
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buyDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="count" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dayCheckCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roomId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saleCompanyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="useState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ClientUser" representedClassName="ClientUser" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientUserId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entryDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="job" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneThree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneTwo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkThree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkTwo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skilled" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Code" representedClassName="Code" syncable="YES">
+        <attribute name="codeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codeTypeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Company" representedClassName="Company" syncable="YES">
+        <attribute name="companyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LoginUser" representedClassName="LoginUser" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entryDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isJob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="menuIds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneThree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneTwo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkThree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkTwo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OrderForm" representedClassName="OrderForm" syncable="YES">
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deScription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="formId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="money" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="companyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="manufacturer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="standard" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProductOrder" representedClassName="ProductOrder" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foreignkey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productOrderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Task" representedClassName="Task" syncable="YES">
+        <attribute name="cityId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="provinceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="task" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="workDate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entryDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isJob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOperatorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneThree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneTwo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkThree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarkTwo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Achievement" positionX="-63" positionY="-18" width="128" height="240"/>
+        <element name="Agent" positionX="36" positionY="126" width="128" height="285"/>
+        <element name="AgentUser" positionX="36" positionY="135" width="128" height="375"/>
+        <element name="Client" positionX="0" positionY="90" width="128" height="360"/>
+        <element name="ClientRoom" positionX="9" positionY="99" width="128" height="240"/>
+        <element name="ClientRoomDevice" positionX="-54" positionY="90" width="128" height="285"/>
+        <element name="ClientUser" positionX="-9" positionY="81" width="128" height="390"/>
+        <element name="Code" positionX="27" positionY="117" width="128" height="135"/>
+        <element name="Company" positionX="0" positionY="117" width="128" height="75"/>
+        <element name="LoginUser" positionX="18" positionY="108" width="128" height="343"/>
+        <element name="OrderForm" positionX="18" positionY="126" width="128" height="210"/>
+        <element name="Task" positionX="-18" positionY="108" width="128" height="315"/>
+        <element name="User" positionX="-36" positionY="99" width="128" height="358"/>
+        <element name="Product" positionX="-423" positionY="117" width="128" height="148"/>
+        <element name="ProductOrder" positionX="-270" positionY="126" width="128" height="148"/>
+    </elements>
+</model>
