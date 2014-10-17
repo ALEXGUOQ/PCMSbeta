@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		5BB9917319A33E9B00C3F2FC /* PCMSDoc */ = {
+		5BD807D719AB3AF9004651DA /* PCMSDoc */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 5BB9917619A33E9C00C3F2FC /* Build configuration list for PBXAggregateTarget "PCMSDoc" */;
+			buildConfigurationList = 5BD807D819AB3AF9004651DA /* Build configuration list for PBXAggregateTarget "PCMSDoc" */;
 			buildPhases = (
-				5BB9917719A33F0400C3F2FC /* ShellScript */,
+				5BD807DB19AB3B08004651DA /* ShellScript */,
 			);
 			dependencies = (
 			);
@@ -917,7 +917,7 @@
 			projectRoot = "";
 			targets = (
 				5B3FD3C3197CDE7D0063B2AC /* PCMSbeta */,
-				5BB9917319A33E9B00C3F2FC /* PCMSDoc */,
+				5BD807D719AB3AF9004651DA /* PCMSDoc */,
 			);
 		};
 /* End PBXProject section */
@@ -943,7 +943,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5BB9917719A33F0400C3F2FC /* ShellScript */ = {
+		5BD807DB19AB3B08004651DA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1198,14 +1198,14 @@
 			};
 			name = Release;
 		};
-		5BB9917419A33E9C00C3F2FC /* Debug */ = {
+		5BD807D919AB3AF9004651DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		5BB9917519A33E9C00C3F2FC /* Release */ = {
+		5BD807DA19AB3AF9004651DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1233,11 +1233,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BB9917619A33E9C00C3F2FC /* Build configuration list for PBXAggregateTarget "PCMSDoc" */ = {
+		5BD807D819AB3AF9004651DA /* Build configuration list for PBXAggregateTarget "PCMSDoc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BB9917419A33E9C00C3F2FC /* Debug */,
-				5BB9917519A33E9C00C3F2FC /* Release */,
+				5BD807D919AB3AF9004651DA /* Debug */,
+				5BD807DA19AB3AF9004651DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

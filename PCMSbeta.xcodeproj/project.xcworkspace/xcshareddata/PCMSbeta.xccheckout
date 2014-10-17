@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>110E8570-8516-4DE0-A7A0-C791AD759525</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PCMSbeta</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F02F2C5128465B8C3C89E0DE04C4A6D6A49A4C9E</key>
+		<string>https://github.com/DahanHu/PCMSbeta.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PCMSbeta.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F02F2C5128465B8C3C89E0DE04C4A6D6A49A4C9E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DahanHu/PCMSbeta.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F02F2C5128465B8C3C89E0DE04C4A6D6A49A4C9E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F02F2C5128465B8C3C89E0DE04C4A6D6A49A4C9E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PCMSbeta</string>
+		</dict>
+	</array>
+</dict>
+</plist>
